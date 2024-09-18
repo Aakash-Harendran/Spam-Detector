@@ -65,6 +65,6 @@ The project is divided into two main components:
 The training and testing data are located in the `resources` folder of the `SpamDetectorServer` project. The data is divided into `train` and `test` folders.
 
 ## References 📚
-[1] Sidebar Interface: [https://www.w3schools.com/w3css/w3css_sidebar.asp](https://www.w3schools.com/w3css/w3css_sidebar.asp)
-[2] Hover Effect: [https://www.w3schools.com/cssref/sel_hover.php](https://www.w3schools.com/cssref/sel_hover.php)
-[3] Spam Filtering: [https://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering](https://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering)
+-    Sidebar Interface: [https://www.w3schools.com/w3css/w3css_sidebar.asp](https://www.w3schools.com/w3css/w3css_sidebar.asp)
+-    Hover Effect: [https://www.w3schools.com/cssref/sel_hover.php](https://www.w3schools.com/cssref/sel_hover.php)
+-    Spam Filtering: [https://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering](https://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering)
