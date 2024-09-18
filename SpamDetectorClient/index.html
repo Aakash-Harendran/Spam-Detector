@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spam Detector</title>
+  <style>
+    body {
+      background-color: #E3E2DF;
+    }
+  </style>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body class="index-background"> <!-- Add the class here -->
+<!-- Top bar with Sidebar Toggle -->
+<div class="top-bar">
+  <span class="sidebar-toggle" onclick="toggleNav()">&#9776;</span>
+  <h1>Spam Detector Dashboard</h1>
+</div>
+
+<!-- Sidebar -->
+<div id="mySidebar" class="sidebar">
+  <a href="index.html">Dashboard</a>
+  <a href="about.html">About</a>
+  <!-- Add other sidebar links as needed -->
+</div>
+
+<!-- Main content -->
+<div id="main" class="content">
+  <!-- Place your table here -->
+  <h1 class="dashboard-heading">Spam Analysis Dashboard</h1>
+  <div class="table-container"> <!-- Add this div -->
+    <table id="spamTable">
+      <thead>
+      <tr>
+        <th>File Name</th>
+        <th>Spam Probability</th>
+        <th>Actual Class</th>
+      </tr>
+      </thead>
+      <tbody>
+      <!-- Table rows will be populated here dynamically -->
+      </tbody>
+    </table>
+  </div> <!-- Close the table-container div -->
+  <!-- Display Precision and Accuracy -->
+  <div id="Performance">
+    <h2>Model Performance</h2>
+    <p id="mp"></p>
+  </div>
+  <div id="Precision">
+    <h2>Precision</h2>
+    <p id="precisionValue"></p>
+  </div>
+  <div id="Accuracy">
+    <h2>Accuracy</h2>
+    <p id="accuracyValue"></p>
+  </div>
+</div>
+
+<!-- Bottom bar -->
+<div class="bottom-bar">
+  <p> Copyright &copy; CSCI 2020U - Winter 2024</p>
+</div>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
