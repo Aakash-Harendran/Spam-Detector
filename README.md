@@ -6,7 +6,7 @@ This project aims to create a spam detector using a unigram approach to filter o
 ### Screenshots
 
 #### Dashboard
-![Dashboard](Dashboard.png)
+![Dashboard](Dashboard(1).png)
 
 #### About Me Page
 ![About Me Page](About_Page.png)
